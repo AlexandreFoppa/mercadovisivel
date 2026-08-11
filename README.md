@@ -103,8 +103,8 @@ Abra `index.html` diretamente no navegador. No Auditor, cole o HTML de uma pági
 
 ## Links de entrega
 
-- Repositório: ____________________
-- Aplicação publicada: ____________________
+- Repositório: https://github.com/AlexandreFoppa/mercadovisivel
+- Aplicação publicada: https://alexandrefoppa.github.io/mercadovisivel/
 
 ## Licença
 
