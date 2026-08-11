@@ -54,9 +54,28 @@ Estas ideias fazem parte da visão do produto, mas **não são apresentadas como
 
 Essa separação mantém a demonstração honesta: o MVP funciona sem backend e sem credenciais, enquanto a evolução mostra como a solução poderia crescer em um cenário real.
 
+## Escopo técnico e evolução para um sistema completo
+
+As verificações demonstradas no MVP são **possíveis de implementar em um sistema completo**. A diferença é que uma solução de produção teria recursos que um único arquivo HTML estático não possui, como servidor, banco de dados, fila de análise, navegador automatizado e integrações autorizadas.
+
+Com uma arquitetura completa, seria possível:
+
+- receber uma URL e buscar o HTML com segurança;
+- analisar páginas renderizadas por JavaScript;
+- verificar respostas HTTP, canonical, sitemap.xml e robots.txt;
+- testar links e recursos externos;
+- medir desempenho e Core Web Vitals em diferentes dispositivos;
+- integrar Search Console, Analytics, CMS e ferramentas oficiais de resultados avançados;
+- salvar auditorias, comparar versões e acompanhar indicadores ao longo do tempo;
+- gerar relatórios e recomendações específicas por tipo de página.
+
+No formato obrigatório da AppJam — uma única página HTML no GitHub Pages — o MVP trabalha somente com o HTML fornecido pelo usuário e faz uma triagem local. Por isso, ele não promete medir indexação, ranking, desempenho real ou substituir ferramentas oficiais. Essas limitações foram consideradas no projeto e as extensões correspondentes estão registradas em **Evolução planejada**.
+
+A mensagem da solução é: **o conceito é plenamente evolutivo e tecnicamente atingível; o arquivo HTML entrega uma prova de conceito honesta, funcional e adequada ao prazo e às restrições do desafio.**
+
 ## Como testar
 
-Abra `index.html` diretamente no navegador. Preencha os campos ou use **Usar exemplo completo** e percorra as abas do resultado.
+Abra `index.html` diretamente no navegador. No Auditor, cole o HTML de uma página e clique em **Auditar página**. No Otimizador, preencha os dados da oferta ou use **Usar exemplo completo** e percorra as abas do resultado.
 
 ## Publicar no GitHub Pages
 
