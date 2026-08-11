@@ -10,7 +10,22 @@ Ofertas como “Oferta da semana: azeite com desconto” não comunicam produto,
 
 ## MVP
 
-O `index.html` é autocontido e funciona no GitHub Pages, sem backend, API, chave ou dependência externa. Ele oferece:
+O `index.html` é autocontido e funciona no GitHub Pages, sem backend, API, chave ou dependência externa. Ele oferece dois fluxos:
+
+### Auditor de visibilidade
+
+Cole um HTML de exemplo ou de uma página real e faça uma triagem local de:
+
+- title e meta description;
+- hierarquia de H1;
+- idioma e viewport mobile;
+- alt das imagens;
+- textos descritivos dos links;
+- HTML semântico;
+- presença de JSON-LD;
+- recomendações priorizadas e índice de prontidão.
+
+### Otimizador omnichannel
 
 - formulário guiado de oferta;
 - diagnóstico antes/depois;
@@ -20,7 +35,7 @@ O `index.html` é autocontido e funciona no GitHub Pages, sem backend, API, chav
 - exemplo de JSON-LD de Product/Offer;
 - cópia dos resultados para publicação.
 
-Os dados exibidos são de demonstração. O JSON-LD é um exemplo para ser inserido na página real da oferta; gerá-lo não garante rich result ou posição no Google.
+Os dados exibidos são de demonstração. O auditor é uma triagem local: não substitui Search Console, PageSpeed ou o teste oficial de resultados avançados. O JSON-LD é um exemplo para ser inserido na página real da oferta; gerá-lo não garante rich result ou posição no Google.
 
 ## Como testar
 
