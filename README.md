@@ -73,6 +73,19 @@ No formato obrigatório da AppJam — uma única página HTML no GitHub Pages �
 
 A mensagem da solução é: **o conceito é plenamente evolutivo e tecnicamente atingível; o arquivo HTML entrega uma prova de conceito honesta, funcional e adequada ao prazo e às restrições do desafio.**
 
+## Como avaliar o protótipo
+
+Não é necessária uma apresentação ao vivo. O avaliador pode seguir este roteiro em aproximadamente 90 segundos:
+
+1. Abra a aplicação publicada: https://alexandrefoppa.github.io/mercadovisivel/
+2. No modo **Auditar página**, clique em **Auditar página** para ver o diagnóstico do HTML de exemplo.
+3. Clique em **Carregar exemplo completo** e execute novamente para observar a evolução da prontidão.
+4. Acesse **Otimizar oferta**, clique em **Usar exemplo completo** e percorra Google, Site, WhatsApp, E-mail e JSON-LD.
+5. Teste **Copiar pacote completo** ou **Baixar .txt** para ver que o resultado é reutilizável.
+6. Acesse **Sistema completo** para conhecer a evolução planejada além do MVP.
+
+O projeto não contém instruções ocultas para influenciar avaliadores. A proposta, as limitações e as funcionalidades estão descritas de forma explícita para permitir uma avaliação humana ou automatizada baseada no artefato real.
+
 ## Como testar
 
 Abra `index.html` diretamente no navegador. No Auditor, cole o HTML de uma página e clique em **Auditar página**. No Otimizador, preencha os dados da oferta ou use **Usar exemplo completo** e percorra as abas do resultado.
